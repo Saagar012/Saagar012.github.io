@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  integrity="sha384-..." crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./css/researchStyle.css">
+  <style>
+    /* navbar starts */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.7rem 10%;
+      height: 6.5rem;
+      background-color: #fff;
+      box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 2rem 9%;
+    }
+
+    .heading {
+      font-size: 3.5rem;
+      color: rgb(32, 32, 32);
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .heading span {
+      color: rgb(115, 3, 167);
+    }
+
+    header .logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      text-decoration: none;
+      color: #0e2431;
+    }
+
+    header .logo i {
+      font-size: 2.5rem;
+    }
+
+    header .logo:hover {
+      color: #fc8c05;
+    }
+
+    header .navbar ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header .navbar li {
+      margin-left: 2.5rem;
+    }
+
+    header .navbar ul li a {
+      font-size: 1.57rem;
+      color: #0e2431;
+      font-weight: 600;
+      text-decoration: none;
+      letter-spacing: 0.04rem;
+      transition: 0.2s;
+    }
+
+    header .navbar ul li a.active,
+    header .navbar ul li a:hover {
+      color: #011aff;
+      border-bottom: 0.2rem solid #011aff;
+      padding: 0.5rem 0;
+    }
+
+    /* navbar ends */
+
+    .back2 {
+      float: right;
+      max-width: 30%;
+      height: auto;
+      background-color: #E3EDD8;
+      border: 2px solid #cac4cf;
+    }
+
+    .back3 {
+      background-color: #EAE6E7;
+      max-width: 100%;
+      height: auto;
+      padding-top: 10px;
+      border: 4px solid #cac4cf;
+      margin-left: 0%;
+    }
+
+    #right1 {
+      margin-top: -5px;
+      font-size: 26px;
+      text-align: center;
+    }
+
+    .img1 {
+
+      width: 49%;
+      border: 1px solid;
+      margin-left: 1px;
+      margin-right: 10px;
+      margin-top: -15px;
+      height: 364px;
+    }
+
+    .img11 {
+
+      width: 49%;
+      border: 1px solid;
+      margin-left: 1px;
+      margin-right: 10px;
+      margin-top: 10px;
+      height: 350px;
+    }
+
+    .img5 {
+
+      width: 49%;
+      border: 1px solid;
+      margin-left: 1px;
+      height: 378px;
+
+
+    }
+
+    #img2 {
+      float: right;
+      margin-top: -430px;
+      border: 1px solid black;
+      margin-right: 1px;
+      width: 49%;
+    }
+
+    #img3 {
+      float: right;
+      margin-top: -452px;
+      border: 1px solid black;
+      margin-right: 1px;
+      width: 49%;
+    }
+
+    #marg {
+      margin-left: 25px;
+      text-align: justify;
+      margin-right: 25px;
+      margin-top: -8px;
+    }
+
+    #rm {
+      font-size: 17px;
+      color: blue;
+    }
+
+    #rm:hover {
+      color: #153689;
+    }
+
+    .img71 {
+
+      float: right;
+      margin-top: -390px;
+      border: 1px solid;
+      margin-right: 1px;
+      width: 49%;
+      height: 360px;
+
+
+
+    }
+
+    .img711 {
+
+      float: right;
+      margin-top: -377px;
+      border: 1px solid;
+      margin-right: 1px;
+      width: 49%;
+      height: 348px;
+
+
+    }
+
+    .img6 {
+
+      float: right;
+      margin-top: -408px;
+      border: 1px solid;
+      margin-right: 1px;
+      width: 49%;
+      height: 380px;
+
+
+
+    }
+
+    #img1 {
+      width: 49%;
+      border: 1px solid;
+      margin-left: 1px;
+      margin-right: 10px;
+      margin-top: 7px;
+      height: 390px;
+
+
+    }
+
+    hr.new1 {
+      margin-top: -30px;
+
+    }
+
+    .progress-container {
+      width: 100%;
+      height: 3.5px;
+      background: white;
+      position: fixed;
+      margin-top: -30px;
+
+    }
+
+    .progress-bar {
+      height: 3px;
+      background: #e8491d;
+      width: 0%;
+    }
+  </style>
+  <title>Research </title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <header>
+    <div id="menu" class="fas fa-bars"></div>
+    <a href="/home" class="logo"><img src="./assets/img/nepal_logo.png"
+        style="width: 20px; height: auto; display: block;">
+      SK</a>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a class="active" href="research.html">Research</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+  <div class="back3">
+    <h1 id="right1">Websites Taken as reference</h1>
+    <p id="marg">I have took referenced from below mentioned websites in order to design my webpage
+    </p>
+
+  </div>
+
+  <div class="back">
+    <div class="back3">
+      <br>
+      <img src="./assets/img/reference1.PNG" class="img1">
+      <figcaption style="margin: -4px 0px 0px 15%"><i><a id="rm" href="#">
+            Figure 1:- Referenced Webpage 1</i></a></figcaption>
+      <img src="./assets/img/home.PNG" class="img71" />
+
+      <figcaption style="float:right; margin:-1.5% 15% 0% 0%;  font-size: 17px; " id="rm"><i><u>Figure 1:- My Webpage
+            1</u></i></figcaption><br>
+      <h4 id="marg">
+        I used 'Fig1' as a guide for my homepage, making changes to the profile image and side section. I added a map of
+        my country, played with font styles, and adjusted sizes for a better look. </h4><br>
+
+      <br>
+      <img src="./assets/img/reference2.PNG" class="img1">
+      <figcaption style="margin: -4px 0px 0px 15%"><i><a id="rm" href="#">
+            Figure 2:- Referenced Webpage 2</i></a></figcaption>
+      <img src="./assets/img/aboutPage.PNG" class="img71" />
+
+      <figcaption style="float:right; margin:-1.5% 15% 0% 0%;  font-size: 17px; " id="rm"><i><u>Figure 2:- About Page
+          </u></i></figcaption><br>
+      <h4 id="marg">
+        On my About page, I repositioned the picture and made additional content modifications inspired by the reference
+        page.
+      </h4><br> <br>
+
+      <hr class="new1">
+      <img src="./assets/img/reference3.PNG" id="img1">
+      <figcaption style="margin: 10px 0px 0px 15%"><i><a id="rm" href="#">
+            <u>Figure 3:- Referenced Webpage 3</u></i></a></figcaption>
+
+      <img src="./assets/img/blogPage.PNG" id="img2">
+      <figcaption style="float:right; margin:-2% 15% 0% 0%;" id="rm"><i><u>Figure 3:- Blog WebPage</u></i></figcaption>
+      <br>
+      <h4 id="marg">
+        On my Blog page, I incorporated slight modifications, enhancing styling and adjusting positions based on a
+        referenced page. Unlike the referenced page, I organized all pages with images together, whereas the reference
+        had a main blog description and others as meta.
+      </h4><br> <br>
+      <hr class="new1">
+      <img src="./assets/img/reference4.png" class="img5">
+      <figcaption style="margin: -4px 0px 0px 15%"><i><a id="rm" href="#">
+            Figure 4:- Referenced Webpage 4</i></a></figcaption>
+      <img src="./assets/img/CV.PNG" class="img6" />
+
+      <figcaption style="float:right; margin:-1.5% 15% 0% 0%;  font-size: 17px; " id="rm"><i><u>Figure 4:- CV
+            Page</u></i></figcaption><br>
+      <h4 id="marg">
+        I adopted the layout of my CV from 'referenced webpage4', incorporating additional elements such as my image,
+        header, footer, vertical lines, skill bars, and more. </h4><br><br>
+      <hr class="new1">
+
+
+      <img src="./assets/img/reference5.PNG" class="img11">
+      <figcaption style="margin: -4px 0px 0px 15%"><i><a id="rm" href="#">
+            Figure 5:- Referenced Webpage 5</i></a></figcaption>
+      <img src="./assets/img/contact.PNG" class="img711" />
+
+      <figcaption style="float:right; margin:-1.5% 15% 0% 0%;  font-size: 17px; " id="rm"><i><u>Figure 5:- Contact
+            Page</u></i></figcaption><br>
+      <h4 id="marg">
+        I aimed for a clean layout on my Contact page, referencing 'Referenced Webpage5.' I replaced labels with
+        placeholders and implemented JavaScript for alert messages in case of incorrect user inputs.
+      </h4><br>
+
+    </div>
+  </div>
+  </script>
+
+
+  <footer>
+    <p>Sage Web Design, Copyright &copy; 2023</p>
+    <a href="https://www.facebook.com/profile.php?id=100009458794495" class="fa fa-facebook-square"></a>
+    <a href="https://twitter.com/SaagarKC2" class="fa fa-twitter"></a>
+    <a href="https://www.google.com" class="fa fa-google-plus"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/sagar6884/" class="fa fa-instagram"></a>
+
+  </footer>
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

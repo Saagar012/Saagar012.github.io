@@ -1,0 +1,295 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  #pic {
+    float: right;
+  }
+
+  #objective {
+    width: 480px;
+    float: left;
+  }
+
+  #page-wrap {
+    width: 850px;
+    margin: 50px auto 60px;
+    background: #FBFBFB;
+    padding-left: 2px;
+    background-attachment: fixed;
+  }
+
+  /* navbar starts */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 10%;
+    height: 6.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  }
+
+  .heading {
+    font-size: 3.5rem;
+    color: rgb(32, 32, 32);
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .heading span {
+    color: rgb(115, 3, 167);
+  }
+
+  header .logo {
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #0e2431;
+  }
+
+  header .logo i {
+    font-size: 2rem;
+  }
+
+  header .logo:hover {
+    color: #fc8c05;
+  }
+
+  header .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .navbar li {
+    margin-left: 2.5rem;
+  }
+
+  header .navbar ul li a {
+    font-size: 1.57rem;
+    color: #0e2431;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.04rem;
+    transition: 0.2s;
+  }
+
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover {
+    color: #011aff;
+    border-bottom: 0.2rem solid #011aff;
+    padding: 0.5rem 0;
+  }
+
+  /* navbar ends */
+  h2 {
+    font-size: 20px;
+    margin: 0 0 6px 0;
+    position: relative;
+  }
+
+  h2 span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-style: italic;
+    font-family: Georgia, Serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+  }
+
+  p {
+    margin: 0 0 14px 0;
+  }
+
+  a.email {
+    color: gray
+  }
+
+  a:hover {
+    color: #C0C0C0;
+  }
+
+
+  #objective p {
+    font-family: Georgia, Serif;
+    font-style: italic;
+    color: #666;
+  }
+
+  dt {
+    font-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 26px 0 0;
+    width: 150px;
+    float: left;
+    height: 150px;
+    border-right: 1px solid #999;
+  }
+
+  dd {
+    width: 600px;
+    float: right;
+  }
+
+  dd.clear {
+    float: none;
+    margin: 0;
+    height: 15px;
+  }
+
+  .profile_pic {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    right: 25%;
+    top: 12%;
+    border-radius: 100%;
+  }
+
+  th {
+    background-color: #696969;
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  .container {
+    width: 100%;
+    background-color: #35424a;
+  }
+
+  .skills {
+    text-align: right;
+    padding: 8px;
+    color: white;
+  }
+
+  .html {
+    width: 60%;
+    background-color: #4CAF50;
+  }
+
+  .css {
+    width: 55%;
+    background-color: #2196F3;
+  }
+
+  .js {
+    width: 50%;
+    background-color: #f44336;
+  }
+
+
+  div.vertical-line {
+    width: 1px;
+    /* Line width */
+    background-color: gray;
+    /* Line color */
+    height: 100%;
+    /* Override in-line if you want specific height. */
+    float: left;
+    /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+    margin-left: -99px;
+    margin-top: -125px;
+
+  }
+
+  .progress-container {
+    width: 100%;
+    height: 3.5px;
+    background: white;
+    position: fixed;
+    margin-top: -30px;
+
+  }
+
+  .progress-bar {
+    height: 3px;
+    background: #e8491d;
+    width: 0%;
+  }
+
+  .bd {
+    margin-top: 5%;
+    background: #FBFBFB;
+  }
+  /* hamburger icon starts*/
+#menu {
+  font-size: 3rem;
+  cursor: pointer;
+  color: rgb(24, 2, 63);
+  display: none;
+}
+@media (max-width: 768px) {
+  #menu {
+    display: block;
+  }
+  header .navbar {
+    position: fixed;
+    top: 6.5rem;
+    right: -120%;
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    background-color: #0e0f31;
+  }
+  header .navbar ul {
+    flex-flow: column;
+    padding: 1rem;
+  }
+  header .navbar ul li {
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    width: 26rem;
+  }
+  header .navbar ul li a {
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: #fff;
+    font-size: 2rem;
+  }
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover {
+    padding: 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid #011aff;
+  }
+  .fa-times {
+    transform: rotate(180deg);
+  }
+  header .navbar.nav-toggle {
+    right: 0;
+  }
+}
+/* hamburger icon ends */

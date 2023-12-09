@@ -1,0 +1,112 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+footer {
+  padding-bottom: 10px;
+  margin-top: 5px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
+
+.fa-facebook-square:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transition: transform 0.2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+}
+
+.fa-google-plus:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transition: transform 0.2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+}
+
+.fa-instagram:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transition: transform 0.2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+}
+
+.fa-twitter:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transition: transform 0.2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+}
+
+.fa-youtube:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transition: transform 0.2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+}
+
+.fa-facebook-square {
+  background: #3B5998;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%
+}
+
+.fa-twitter {
+  background: #00ACEE;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+.fa-youtube {
+
+  background: #bb0000;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-google-plus {
+  background: tomato;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
